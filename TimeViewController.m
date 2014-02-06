@@ -64,6 +64,9 @@
 
 -(void)viewDidUnload
 {
+    //the simulate memory warning is not causing any of my views to unload
+    
+    
     [super viewDidUnload];
     NSLog(@"Unloading TimeViewController's subviews");
     //remove this because we set it to __weak
